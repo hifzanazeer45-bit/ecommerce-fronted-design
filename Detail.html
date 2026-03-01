@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail page</title>
+   <link rel="icon" href="icon.2.png">
+    <link rel="stylesheet" href="3.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+      <!-- ===== TOP HEADER ===== -->
+<header class="top-header">
+    <div class="container">
+
+        <!-- Logo -->
+          <div class="logo">
+          <img src="logo-colored.png" >
+          </div>
+
+         <!-- search section -->
+        <div class="search-section">
+            <input type="text" class="search-input" placeholder="Search">
+            <select id="category-dropdown">
+                <option type="dropdown">All category</option>
+                <option type="dropdown">All category</option>
+                <option type="dropdown">All category</option>
+                <option type="dropdown">All category</option>
+                <option type="dropdown">All category</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+
+        <!-- user section -->
+        <div class="user-section">
+            <a href="#" class="section-item">
+                <i class="fa-solid fa-user"></i>
+                <span class="section-label">Profile</span>
+            </a>
+            <a href="#" class="section-item">
+                <i class="fa-regular fa-message"></i>
+                <span class="section-label">Message</span>
+            </a>
+            <a href="#" class="section-item">
+                <i class="fa-solid fa-heart"></i>
+                <span class="section-label">Orders</span>
+            </a>
+            <a href="#" class="section-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="section-label">My cart</span>
+            </a>
+        </div>
+
+    </div>
+</header>
+
+<!-- ===== MENU BAR ===== -->
+<nav class="menu-bar">
+    <div class="container">
+
+        <ul class="menu-left">
+            <li>☰ All category</li>
+            <li>Hot offers</li>
+            <li>Gift boxes</li>
+            <li>Projects</li>
+            <li>Menu item</li>
+            <li>Help</li>
+        </ul>
+
+        <ul class="menu-right">
+            <li>English, USD ▾</li>
+            <li>Ship to ▾</li>
+        </ul>
+
+    </div>
+</nav> <br>
+
+<div class="product-container">
+    <div class="product-main-card">
+        <div class="gallery-section">
+            <div class="main-img">
+                <img src="T-shirt.png" alt="Main T-shirt">
+            </div>
+            <div class="thumb-list">
+                <img src="copy shirt.png" class="active" alt="thumb">
+                <img src="T-shirt.png" alt="thumb">
+                <img src="T-shirt.png" alt="thumb">
+                <img src="copy shirt.png" alt="thumb">
+                <img src="T-shirt.png" alt="thumb">
+                <img src="T-shirt.png" alt="thumb">
+            </div>
+        </div>
+
+        <div class="info-section">
+            <span class="stock-status"><i class="fa fa-check"></i> In stock</span>
+            <h1 class="product-title">Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+            
+            <div class="rating-row">
+                <span class="stars">⭐⭐⭐⭐⭐ 9.3</span>
+                <span class="dot"></span>
+                <span class="reviews"><i class="fa fa-comment"></i> 32 reviews</span>
+                <span class="dot"></span>
+                <span class="sold"><i class="fa fa-shopping-basket"></i> 154 sold</span>
+            </div>
+
+            <div class="price-table">
+                <div class="price-col highlight">
+                    <span class="p-price">$98.00</span>
+                    <span class="p-qty">50-100 pcs</span>
+                </div>
+                <div class="price-col">
+                    <span class="p-price">$90.00</span>
+                    <span class="p-qty">100-700 pcs</span>
+                </div>
+                <div class="price-col">
+                    <span class="p-price">$78.00</span>
+                    <span class="p-qty">700+ pcs</span>
+                </div>
+            </div>
+
+            <div class="specs-list">
+                <div class="spec-item"><span>Price:</span> <span>Negotiable</span></div>
+                <hr>
+                <div class="spec-item"><span>Type:</span> <span>Classic shoes</span></div>
+                <div class="spec-item"><span>Material:</span> <span>Plastic material</span></div>
+                <div class="spec-item"><span>Design:</span> <span>Modern nice</span></div>
+                <hr>
+                <div class="spec-item"><span>Customization:</span> <span>Customized logo and design custom packages</span></div>
+                <div class="spec-item"><span>Protection:</span> <span>Refund Policy</span></div>
+                <div class="spec-item"><span>Warranty:</span> <span>2 years full warranty</span></div>
+            </div>
+        </div>
+
+        <div class="supplier-section">
+            <div class="supplier-card">
+                <div class="supp-header">
+                    <div class="supp-letter">R</div>
+                    <div class="supp-info">
+                        <p>Supplier</p>
+                        <strong>Guanjoi Trading LLC</strong>
+                    </div>
+                </div>
+                <hr>
+                <div class="supp-details">
+                    <p><i class="fa fa-flag"></i> Germany, Berlin</p>
+                    <p><i class="fa fa-shield"></i> Verified Seller</p>
+                    <p><i class="fa fa-globe"></i> Worldwide shipping</p>
+                </div>
+                <button class="btn-blue-solid">Send inquiry</button>
+                <button class="btn-white-solid">Seller's profile</button>
+            </div>
+            <button class="btn-save-later"><i class="fa fa-heart"></i> Save for later</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-details-grid">
+    <div class="description-column">
+        <div class="tabs-container card shadow">
+            <div class="tabs-header">
+                <button class="tab-btn active">Description</button>
+                <button class="tab-btn">Reviews</button>
+                <button class="tab-btn">Shipping</button>
+                <button class="tab-btn">About seller</button>
+            </div>
+            <div class="tab-content">
+                <p class="desc-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                
+                <table class="spec-table">
+                    <tr><td>Model</td><td>#8786867</td></tr>
+                    <tr><td>Style</td><td>Classic style</td></tr>
+                    <tr><td>Certificate</td><td>ISO-898921212</td></tr>
+                    <tr><td>Size</td><td>34mm x 450mm x 19mm</td></tr>
+                    <tr><td>Memory</td><td>36GB RAM</td></tr>
+                </table>
+
+                <ul class="feature-list">
+                    <li><i class="fa fa-check"></i> Some great feature name here</li>
+                    <li><i class="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur</li>
+                    <li><i class="fa fa-check"></i> Duis aute irure dolor in reprehenderit</li>
+                    <li><i class="fa fa-check"></i> Some great feature name here</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-column">
+        <div class="card shadow">
+            <h3 class="sidebar-title">You may like</h3>
+            
+            <div class="sidebar-item">
+                <div class="side-img"><img src="winter coat.png" alt="product"></div>
+                <div class="side-info">
+                    <p class="side-name">Men Blazers Sets <br>Elegant Formal</p>
+                    <p class="side-price">$7.00 - $99.50</p>
+                </div>
+            </div>
+
+            <div class="sidebar-item">
+                <div class="side-img"><img src="T-shirt.png" alt="product"></div>
+                <div class="side-info">
+                    <p class="side-name">Men Shirt Sleeve<br>Polo Contrast</p>
+                    <p class="side-price">$7.00 - $99.50</p>
+                </div>
+            </div>
+
+            <div class="sidebar-item">
+                <div class="side-img"><img src="jeans shorts.png" alt="product"></div>
+                <div class="side-info">
+                    <p class="side-name">Apple Watach Series<br>Space Gray</p>
+                    <p class="side-price">$7.00 - $99.50</p>
+                </div>
+            </div>
+
+            <div class="sidebar-item">
+                <div class="side-img"><img src="leather wallet.png" alt="product"></div>
+                <div class="side-info">
+                    <p class="side-name">Basketball Crew<br>Socks Long Stuff</p>
+                    <p class="side-price">$7.00 - $99.50</p>
+                </div>
+            </div>
+
+            <div class="sidebar-item">
+                <div class="side-img"><img src="winter coat.png" alt="product"></div>
+                <div class="side-info">
+                    <p class="side-name">New Summer Men's<br>castrol T-Shirts</p>
+                    <p class="side-price">$7.00 - $99.50</p>
+                </div>
+            </div>
+            
+            </div>
+    </div>
+</div>
+
+<div class="related-products-container card shadow">
+    <h3 class="related-title">Related products</h3>
+    <div class="related-grid">
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="travel bag.png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="smart watch.png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="headphone.png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="Bitmap (2).png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="smrt watches.png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+
+        <div class="related-item">
+            <div class="related-img-box">
+                <img src="home appliance.png" alt="Xiaomi Redmi 8">
+            </div>
+            <p class="related-name">Xiaomi Redmi 8 Original</p>
+            <p class="related-price-range">$32.00-$40.00</p>
+        </div>
+    </div><br>
+</div>
+
+<div class="discount-banner shadow">
+    <div class="discount-content">
+        <h3 class="discount-title">Super discount on more than 100 USD</h3>
+        <p class="discount-text">Have you ever finally just write dummy info</p>
+    </div>
+    <div class="discount-action">
+        <button class="btn-shop-now">Shop now</button>
+    </div>
+</div>
+    </div>
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Brand Column -->
+        <div class="footer-brand">
+            <div class="logo">
+          <img src="logo-colored.png" >
+          </div>
+            <p>Best information about the company goes here but now lorem ipsum is</p>
+
+            <!-- social media links and icon-->
+                <div class="social-icons">
+                    <!-- facebook -->
+                    <a href="#" class="social-icon" title="Facebook" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <!-- twitter -->
+                    <a href="#" class="social-icon" title="twitter" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <!-- linkedin -->
+                    <a href="#" class="social-icon" title="linkedin" id="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <!-- instagram -->
+                    <a href="#" class="social-icon" title="instagram" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- youtube -->
+                    <a href="#" class="social-icon" title="youtube" id="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+        </div>
+
+         <!-- Columns -->
+        <div class="footer-column">
+            <h4>About</h4>
+            <p>About Us</p>
+            <p>Find store</p>
+            <p>Categories</p>
+            <p>Blogs</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Partnership</h4>
+            <p>About Us</p>
+            <p>Find store</p>
+            <p>Categories</p>
+            <p>Blogs</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Information</h4>
+            <p>Help Center</p>
+            <p>Money Refund</p>
+            <p>Shipping</p>
+            <p>Contact us</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>For users</h4>
+            <p>Login</p>
+            <p>Register</p>
+            <p>Settings</p>
+            <p>My Orders</p>
+        </div>
+
+        <div class="footer-column">
+    <h4>Get app</h4>
+
+    <div class="app-buttons">
+        <a href="#">
+            <img src="market-button.png" alt="App Store">
+        </a>
+
+        <a href="#">
+            <img src="Group.png" alt="Google Play">
+        </a>
+    </div>
+</div>
+
+    </div>
+
+    <div class="copyright">
+        © 2023 Ecommerce.   
+    </div>
+    
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
